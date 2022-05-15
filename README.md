@@ -22,3 +22,16 @@ An exploratory project to learn about Spring Boot framework for backend developm
 - Annotate with Mapping
 
 ## Business Layer
+
+- Create a Service and annotate with Service
+- Create a method
+- Create dependency injection using Autowired
+
+## Data Layer with JPA
+
+- Edit application properties to add connection props
+- Uncomment Dependency
+- Create Repository extends JpaRepository<Type, ID>
+- Create Config and annotate with Configuration
+- Create CommandLineRunner and Annotate with Bean
+- Create Instances and use saveAll
